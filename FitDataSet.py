@@ -13,5 +13,7 @@ def fitData():
     for element in row:
         i = i + 1
         if element == "|":
-            print(i)
+            print("O numero de elementos por subsetor é: " + str(i))
+            break
+
     arquivoDNA.close()

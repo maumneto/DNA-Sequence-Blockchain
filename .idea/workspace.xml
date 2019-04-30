@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fc4e89-1638-4600-896c-3b8d01fcc07a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StoreDataJson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FitDataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/FitDataSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadDataSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadDataSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dnaDATA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dnaDATA.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/FitDataSet.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -92,8 +89,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/StoreDataJson.py" />
         <option value="$PROJECT_DIR$/LoadDataSet.py" />
+        <option value="$PROJECT_DIR$/StoreDataJson.py" />
         <option value="$PROJECT_DIR$/FitDataSet.py" />
       </list>
     </option>
@@ -237,6 +234,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="1504" column="47" lean-forward="true" selection-start-line="1504" selection-start-column="47" selection-end-line="1504" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DNAsequenceDATASET.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -248,13 +252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="6090" selection-start-column="6090" selection-end-column="6090" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StoreDataJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -272,17 +269,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/typing.py">
+    <entry file="file://$PROJECT_DIR$/StoreDataJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="1504" column="47" lean-forward="true" selection-start-line="1504" selection-start-column="47" selection-end-line="1504" selection-end-column="47" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FitDataSet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
