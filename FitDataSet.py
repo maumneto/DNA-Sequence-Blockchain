@@ -1,13 +1,10 @@
-import math
-import LoadDataSet
-def slideData():
+from LoadDataSet import *
+#def slideData():
 
 def fitData():
+    datasetOpening()
     arquivoDNA = open("dnaDATA.txt", "r")
     for row in arquivoDNA:
        print(row)
 
-
-
-if __name__ == '__main__':
-    fitData()
+    arquivoDNA.close()
