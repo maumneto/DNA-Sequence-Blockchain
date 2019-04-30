@@ -14,5 +14,5 @@ def datasetOpening():
                 print(f'Nomes das colunas: {", ".join(row)}')
                 cabecalho = False
             else:
-               arquivo.write(row[2].strip() + "\n")
+               arquivo.write(row[2].strip() + "|")
         arquivo.close()
