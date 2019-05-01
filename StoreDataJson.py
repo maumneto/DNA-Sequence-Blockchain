@@ -2,4 +2,4 @@ import json
 
 def storeData():
 
-    return;
+    return
