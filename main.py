@@ -1,9 +1,9 @@
 from FitDataSet import *
+from storeDataJson import *
 
 def main():
-    #implementar a funcao principal
-    print("implementando a funcao principal")
     fitData()
+    storeData()
 
 
 if __name__ == "__main__":
