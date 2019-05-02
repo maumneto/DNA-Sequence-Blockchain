@@ -20,10 +20,7 @@ def storeData():
             dataDna.append(dataTem)
             numberPair = numberPair + 1
 
-    print("\nBegin DNA sequence dictionary \n")
-
+    print("\nBegin DNA sequence dictionary")
     print(dataDna)
-    #for element in range(105):
-    #    print(dataDna[element])
 
     data.close()
