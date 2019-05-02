@@ -1,5 +1,5 @@
 '''
-ARQUIVO PARA ARMAZENAR OS 
+ARQUIVO PARA ARMAZENAR OS
 
 '''
 
@@ -20,10 +20,10 @@ def storeData():
             dataDna.append(dataTem)
             numberPair = numberPair + 1
 
-    print("\n Begin DNA sequence dictionary \n")
+    print("\nBegin DNA sequence dictionary \n")
 
-
-    for element in range(105):
-        print(dataDna[element])
+    print(dataDna)
+    #for element in range(105):
+    #    print(dataDna[element])
 
     data.close()
