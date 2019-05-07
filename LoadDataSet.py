@@ -11,7 +11,7 @@ def datasetOpening():
         arquivo = open('dnaDATA.txt','w')
         for row in csv_reader:
             if cabecalho:
-                print(f'heads: {", ".join(row)}')
+                print(f'Heads: {", ".join(row)}')
                 cabecalho = False
             else:
                arquivo.write(row[2].strip() + '\n')

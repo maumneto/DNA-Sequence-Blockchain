@@ -20,7 +20,7 @@ def storeData():
             dataDna.append(dataTem)
             numberPair = numberPair + 1
 
-    print("\nBegin DNA sequence dictionary")
+    print("\nBegin DNA sequence in dictionary")
     print(dataDna)
 
     data.close()
