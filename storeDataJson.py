@@ -16,11 +16,16 @@ def storeData():
 
     for element in data:
         if(element != "\n"):
-            dataTem = {'pair': element, 'numberPair': numberPair}
+            dataTem = {
+                "pair": element,
+                "numberPair": numberPair,
+            }
             dataDna.append(dataTem)
             numberPair = numberPair + 1
 
-    print("\nBegin DNA sequence in dictionary")
-    print(dataDna)
+    print("\nBegin DNA sequence in vector")
+    print(dataDna , "\n")
 
     data.close()
+
+    return dataDna

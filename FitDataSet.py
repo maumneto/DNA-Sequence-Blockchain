@@ -7,10 +7,4 @@ def fitData():
        print(row)
     print("Number of elements: " + str(len(row)))
 
-    #for element in row:
-    #    i = i + 1
-    #    if element == "|":
-    #        print("Elements per line: " + str(i))
-    #        break
-
     arquivoDNA.close()
