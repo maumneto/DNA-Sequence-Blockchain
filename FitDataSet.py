@@ -1,5 +1,6 @@
 from LoadDataSet import *
 
+
 def fitData():
     datasetOpening()
     arquivoDNA = open("dnaDATA.txt", "r")
