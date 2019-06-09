@@ -11,4 +11,4 @@ signed_tx = bdb.transactions.fulfill(
     tx,
     private_keys=alice.private_key)
 bdb.transactions.send_commit(signed_tx)
-bdb.transactions.sen
+
