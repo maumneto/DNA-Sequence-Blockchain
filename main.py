@@ -10,9 +10,9 @@ def main():
     fitData()
     data = storeData()
 
-    print('Enter with an option: '
-          '1 - Experiment I ; 2 - Experiment II '
-          'or 3 - Experiment III')
+    print('Enter with an option: \n'
+          '1 - Experiment I\n2 - Experiment II\n'
+          '3 - Experiment III')
     option = int(input('Number: '))
     out = 0
 

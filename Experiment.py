@@ -15,7 +15,9 @@ def ExperimentNumberOne(data):
             data_start = datetime.datetime.now()
             arquivo.write('Begin in: ' + str(data_start) + '\n')
 
-            bdb = BigchainDB('10.102.22.142:9984')
+            IP_PORT = str(input('Enter with IP:PORT : '))
+            bdb = BigchainDB(IP_PORT)
+            #bdb = BigchainDB('10.102.22.142:9984')
             if (bdb == None):
                 print('Error: not possible to reach this IP - PORT!')
                 exit(-1)
@@ -60,7 +62,9 @@ def ExperimentNumberTwo(data):
             data_start = datetime.datetime.now()
             arquivo.write('Begin in: ' + str(data_start) + '\n')
 
-            bdb = BigchainDB('10.102.22.142:9984')
+            IP_PORT = str(input('Enter with IP:PORT : '))
+            bdb = BigchainDB(IP_PORT)
+            #bdb = BigchainDB('10.102.22.142:9984')
             if (bdb == None):
                 print('Error: not possible to reach this IP - PORT!')
                 exit(-1)
@@ -105,7 +109,9 @@ def ExperimentNumberThree(data):
             data_start = datetime.datetime.now()
             arquivo.write('Begin in: ' + str(data_start) + '\n')
 
-            bdb = BigchainDB('10.102.22.142:9984')
+            IP_PORT = str(input('Enter with IP:PORT : '))
+            bdb = BigchainDB(IP_PORT)
+            #bdb = BigchainDB('10.102.22.142:9984')
             if (bdb == None):
                 print('Error: not possible to reach this IP - PORT!')
                 exit(-1)
