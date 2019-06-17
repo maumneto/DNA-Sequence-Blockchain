@@ -12,19 +12,19 @@ def storeData():
     numberPair = 0
 
     datasetOpening()
-    data = open("dnaDATA.txt", "r")
+    data = open('dnaDATA.txt', 'r')
 
     for element in data:
-        if(element != "\n"):
+        if(element != '\n'):
             dataTem = {
-                "pair": element,
-                "numberPair": numberPair,
+                'pair': element,
+                'numberPair': numberPair,
             }
             dataDna.append(dataTem)
             numberPair = numberPair + 1
 
-    print("\nBegin DNA sequence in vector")
-    print(dataDna , "\n")
+    print('\nBegin DNA sequence in vector')
+    print(dataDna, '\n')
 
     data.close()
 

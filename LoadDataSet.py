@@ -1,7 +1,8 @@
-"""
+'''
 CODIGO PARA CARREGAR O ARQUIVO DE DNA.
 ARQUIVO ORIGINAL: https://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Promoter+Gene+Sequences)
-"""
+'''
+
 import csv
 
 def datasetOpening():
