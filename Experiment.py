@@ -44,7 +44,7 @@ def ExperimentNumberOne(data):
             # recording the data sending in the experiment
             arquivo.write(' Data seding to BigchainDB: ')
             for i in range(40):
-                arquivo.write(data[i] + '\n')
+                arquivo.write(data[i])
             arquivo.write(' === Finish data === ')
             # closing archive
             arquivo.close()
@@ -91,7 +91,7 @@ def ExperimentNumberTwo(data):
             # recording the data sending in the experiment
             arquivo.write(' Data seding to BigchainDB: ')
             for i in range(80):
-                arquivo.write(data[i] + '\n')
+                arquivo.write(data[i])
             arquivo.write(' === Finish data === ')
             # closing archive
             arquivo.close()
@@ -138,7 +138,7 @@ def ExperimentNumberThree(data):
             # recording the data sending in the experiment
             arquivo.write(' Data seding to BigchainDB: ')
             for i in range(105):
-                arquivo.write(data[i] + '\n')
+                arquivo.write(data[i])
             arquivo.write(' === Finish data === ')
             # closing archive
             arquivo.close()
