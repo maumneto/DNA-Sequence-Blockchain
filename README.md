@@ -3,7 +3,7 @@
 Algorithm to organize DNA sequence data to be allocated in a blockchain
 
 ## Como citar a ferramenta DNA-Sequence-Blockchain
---
+
 
 NETO, MAURICIO MOREIRA; S.MARINHO, CARLOS SERGIO DA ; COUTINHO, EMANUEL F. ; MOREIRA, LEONARDO O. ; MACHADO, JAVAM DE C. ; SOUZA, JOSE NEUMAN DE . Research Opportunities for E-health Applications with DNA Sequence Data using Blockchain Technology. In: 2020 IEEE International Conference on Software Architecture Companion (ICSAC), 2020, Salvador. 2020 IEEE International Conference on Software Architecture Companion (ICSA-C), 2020. p. 95.
 [article-dna-sequence](https://ieeexplore.ieee.org/document/9095706)
